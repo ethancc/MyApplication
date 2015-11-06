@@ -30,6 +30,7 @@ import com.ethan.xlib.component.db.table.ColumnEntity;
 import com.ethan.xlib.component.db.table.DbModel;
 import com.ethan.xlib.component.db.table.TableEntity;
 import com.ethan.xlib.component.ex.DbException;
+import com.ethan.xlib.component.x;
 
 import java.io.File;
 import java.io.IOException;

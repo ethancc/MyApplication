@@ -6,7 +6,7 @@ import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 
-import org.xutils.common.util.LogUtil;
+import com.ethan.xlib.common.util.LogUtil;
 
 import java.lang.reflect.Method;
 

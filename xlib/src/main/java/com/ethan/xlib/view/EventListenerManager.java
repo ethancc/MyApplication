@@ -18,8 +18,8 @@ package com.ethan.xlib.view;
 import android.text.TextUtils;
 import android.view.View;
 
-import org.xutils.common.util.LogUtil;
-import org.xutils.view.annotation.Event;
+import com.ethan.xlib.common.util.LogUtil;
+import com.ethan.xlib.view.annotation.Event;
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.InvocationHandler;

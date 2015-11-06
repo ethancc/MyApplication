@@ -1,6 +1,5 @@
 package com.ethan.xlib.component.image;
 
-import android.backport.webp.WebPFactory;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -13,14 +12,15 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.media.ExifInterface;
 
-import org.xutils.cache.DiskCacheEntity;
-import org.xutils.cache.DiskCacheFile;
-import org.xutils.cache.LruDiskCache;
-import org.xutils.common.Callback;
-import org.xutils.common.task.PriorityExecutor;
-import org.xutils.common.util.IOUtil;
-import org.xutils.common.util.LogUtil;
-import org.xutils.x;
+import com.ethan.xlib.common.Callback;
+import com.ethan.xlib.common.task.PriorityExecutor;
+import com.ethan.xlib.common.util.IOUtil;
+import com.ethan.xlib.common.util.LogUtil;
+import com.ethan.xlib.compat.WebPFactory;
+import com.ethan.xlib.component.cache.DiskCacheEntity;
+import com.ethan.xlib.component.cache.DiskCacheFile;
+import com.ethan.xlib.component.cache.LruDiskCache;
+import com.ethan.xlib.component.x;
 
 import java.io.BufferedInputStream;
 import java.io.File;

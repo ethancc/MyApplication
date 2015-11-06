@@ -3,9 +3,9 @@ package com.ethan.xlib.component.image;
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
 
-import org.xutils.ImageManager;
-import org.xutils.common.Callback;
-import org.xutils.x;
+import com.ethan.xlib.common.Callback;
+import com.ethan.xlib.component.ImageManager;
+import com.ethan.xlib.component.x;
 
 import java.io.File;
 

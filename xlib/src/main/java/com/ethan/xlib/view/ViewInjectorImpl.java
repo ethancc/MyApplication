@@ -20,12 +20,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.xutils.ViewInjector;
-import org.xutils.common.util.LogUtil;
-import org.xutils.view.annotation.ContentView;
-import org.xutils.view.annotation.Event;
-import org.xutils.view.annotation.ViewInject;
-import org.xutils.x;
+import com.ethan.xlib.common.util.LogUtil;
+import com.ethan.xlib.component.ViewInjector;
+import com.ethan.xlib.component.x;
+import com.ethan.xlib.view.annotation.ContentView;
+import com.ethan.xlib.view.annotation.Event;
+import com.ethan.xlib.view.annotation.ViewInject;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

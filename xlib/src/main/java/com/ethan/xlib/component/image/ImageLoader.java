@@ -21,6 +21,7 @@ import com.ethan.xlib.common.util.IOUtil;
 import com.ethan.xlib.common.util.LogUtil;
 import com.ethan.xlib.component.cache.LruCache;
 import com.ethan.xlib.component.cache.LruDiskCache;
+import com.ethan.xlib.component.ex.CacheLockedException;
 import com.ethan.xlib.component.http.RequestParams;
 import com.ethan.xlib.component.x;
 
