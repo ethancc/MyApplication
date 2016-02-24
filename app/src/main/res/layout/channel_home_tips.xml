@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FA8932">
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="欢迎来到这里跟小伙伴一起嗨皮！"
+        android:drawableLeft="@drawable/channel_tips_icon_x"
+        android:drawablePadding="8dp"
+        android:ellipsize="end"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp" />
+
+</RelativeLayout>

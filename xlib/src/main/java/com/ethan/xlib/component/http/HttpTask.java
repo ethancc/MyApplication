@@ -84,6 +84,7 @@ public class HttpTask<ResultType> extends AbsTask<ResultType> implements Progres
                 this.executor = HTTP_EXECUTOR;
             }
         }
+
     }
 
     // 初始化请求参数
@@ -500,5 +501,6 @@ public class HttpTask<ResultType> extends AbsTask<ResultType> implements Progres
             }
         }
     }
+
 
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.ethan.DragCardActivity">
+
+        <com.example.ethan.dragcar.DragCardViewContainer
+                android:id="@+id/drag_card_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TO LIKE PAGE"
+                android:onClick="launchLikeClickActivity"/>
+
+</FrameLayout>

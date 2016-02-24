@@ -26,6 +26,10 @@
               xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
               android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
               android:name="com.google.android.gms.maps.SupportMapFragment" />-->
+    <com.ethan.xlib.view.Chatplug_EditText
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp" />
 
 </LinearLayout>
 

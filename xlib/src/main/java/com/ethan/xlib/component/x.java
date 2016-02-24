@@ -61,7 +61,7 @@ public final class x {
     }
 
     public static class Ext {
-        private static boolean debug;
+        private static boolean debug = true;
         private static Application app;
         private static TaskController taskController;
         private static HttpManager httpManager;
