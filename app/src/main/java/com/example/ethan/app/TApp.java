@@ -1,15 +1,15 @@
 package com.example.ethan.app;
 
-import android.app.Application;
 import android.app.Instrumentation;
 
 import com.ethan.xlib.app.MyInstrumentation;
+import com.ethan.xlib.app.TAppBase;
 import com.ethan.xlib.common.util.ReflectHelper;
 
 /**
  * Created by ethamhuang on 2016/1/27.
  */
-public class TApp extends Application {
+public class TApp extends TAppBase {
 
     private Object mActivityThreadObj = null;
     private Instrumentation mOrigInstrumentation = null;
